@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/tabs/discovery/discovery",
+    "pages/tabs/movies/movies",
+    "pages/tabs/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "iMark",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f7f7"
+  },
+  "debug": true,
+  "tabBar": {
+    "custom": false,
+    "color": "#496069",
+    "backgroundColor":"#ffffff",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/tabs/discovery/discovery",
+      "text": "发现",
+      "iconPath": "images/tabbar/tabbar_discovery_selected.png",
+      "selectedIconPath": "images/tabbar/tabbar_discovery_selected.png"
+    },{
+      "pagePath": "pages/tabs/movies/movies",
+      "text": "清单",
+      "iconPath": "images/tabbar/tabbar_list.png",
+      "selectedIconPath": "images/tabbar/tabbar_list_selected.png"
+    },{
+      "pagePath": "pages/tabs/index/index",
+      "text": "我的",
+      "iconPath": "images/tabbar/tabbar_mine.png",
+      "selectedIconPath": "images/tabbar/tabbar_mine_selected.png"
+    }]
+  }
+}
