@@ -1,1 +1,27 @@
+<view class="container page-discovery">
+  <navigator hover-class="none"> 
+    <view class="search-bar">
+      <view class="search-radius btn-opacity">
+      <image class="icon" src="/images/icon-search.png" mode="aspeceFit"></image>
+      <text>搜索</text>
+      </view>
+    </view>
+  </navigator>
 
+  <view class="content">
+    <scroll-view scroll-y enable-back-to-top>
+      <swiper class='banner'
+        indicator-dots
+        autoplay
+        indicator-active-color="#fff"
+        circular>
+        <block wx:for="{{banner}}" wx:key="id" wx:for-item="item">
+          <swiper-item>
+            <image data-index='{{index}}' src="{{item.image}}" class="slide-image"  bindtap='onBannerTap'/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </scroll-view>
+  </view>
+
+</view>

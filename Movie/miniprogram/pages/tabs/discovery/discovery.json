@@ -2,6 +2,7 @@
   "navigationBarBackgroundColor": "#ffe200",
   "backgroundColorTop": "#ffe200",
   "backgroundColorBottom": "#ffffff",
+  "backgroundColor": "#ffffff",
   "usingComponents": {
     "tab-bar":"/components/tab-bar/tab-bar"
   }
